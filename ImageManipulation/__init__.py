@@ -5,6 +5,7 @@ from datetime import timedelta
 def create_app():
     # Creating the Flask app
     app = Flask(__name__)
+    app.config['SECRET_KEY'] = "wkDna4Hf0Y2Rduf"
     app.config['JWT_SECRET_KEY'] = '03UVDeJ5V8mxXpC'
     
     # Initializing the JWTManager
