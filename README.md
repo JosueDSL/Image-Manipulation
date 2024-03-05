@@ -25,7 +25,8 @@ Run the flask application as follows:
 * Activate your virtual enviroment
 * Run the following command to start the Flask application:
 `python3 ./app.py`
-
+* Reference the [Postman documentation](https://winter-resonance-429104.postman.co/workspace/Team-Workspace~6d41255b-83d1-482e-89c9-6284c7496940/collection/33375466-2b0e2b6d-c815-4d8f-a986-ef0b0a7e2947?action=share&creator=33375466) 
+* Go to the `login` request endpoint, send a POST requests as especified in the API documentation to get the Bearer token and apply it to all the requests inside the Image-Manipulation folder
 
 ### General File Structure:
 ```bash
